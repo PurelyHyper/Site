@@ -1,0 +1,23 @@
+limpar
+- Quando atacas um inimigo gasta 1 PD por cada categoria acima de grande ganha +1 de dano
+
+Surto de força 
+- gasta 1 PD e ganha mais +1 atributo em qualquer atributo fisico 
+
+Apromiração
+- Quando tems um empunhado IV,  gasta 2 PD e aumenta em 1 a propeirdade de um item. 
+
+Mo-beast
+- dont get any bonus from size when it comes to "manobras"
+
+Presteza atletica
+- Escolhe entre ter +3m/1.5q, 2 PV+vig ou 1 PD+Pre~
+
+<input id="contentFile" type="file" accept="application/json" />
+
+ <input type="text" id="display" class="display">
+
+
+
+ Surto de força
+ - Uma vez por rodada vai plus ultra, e por 1 PD ganha 1 ponto de atributo entre (AGL, FOR, VIG) ate o fim da rodada (Se ganhar vida extra pelo o vigor e quando esse vigor sair a sua vida serar voce morre)

@@ -1,0 +1,20 @@
+/**
+* @license
+*
+* Font Family: Paquito
+* Designed by: Juanjo Lopez
+* URL: https://www.fontshare.com/fonts/paquito
+* © 2026 Indian Type Foundry
+*
+* Paquito Regular 
+
+*
+*/
+
+@font-face {
+    font-family: 'Paquito-Regular';
+    src: url('../fonts/Paquito-Regular.woff2') format('woff2'), url('../fonts/Paquito-Regular.woff') format('woff'), url('../fonts/Paquito-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}

@@ -1,0 +1,255 @@
+<html>
+
+<head>
+    <title>2 Pages for classes</title>
+    <link href="Style.css" rel="stylesheet" />
+    <link href="Assets/Fontshare/FontshareKit-2601002453/Paquito/Fonts/WEB/css/paquito.css" rel="stylesheet">
+    <link href="Assets/css/W3eCss.css" rel="stylesheet">
+</head>
+
+<body bgcolor="grey">
+    <br>
+    <script src="Scripts/Scripts.js"></script>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- this is the page diva!-->
+    <div class="page Texture" onloadstart="CalculationDisplayer(100)">
+
+        <!-- And this is mister texty textful-->
+        <p>
+
+        </p>
+
+        <!-- And this is the black diva!!!!-->
+        <div class="BlackBlock">
+            <h1 class="HeaderArch">Classe Gifter Atleta</h1>
+            <p>
+                <u>Pontos de Vida inicias: 
+                    <span class="InlineTextedit EnlargeText">6</span>
+                    <span class="InlineTextedit" style="text-align: justify;">+Vigor</span>
+                </u>
+                <br> <span class="SmallText"> A cada novo nível 2 PV (+Vig)</span>
+            </p>
+            <p>
+                <u>Pontos de PD inicias: 
+                    <span class="InlineTextedit EnlargeText">2</span>
+                    <span class="InlineTextedit"  style="text-align: justify;" >+Prescença</span>
+                </u>
+                <br> <span class="SmallText"> A cada novo nível 1 PD (+Pre)</span>
+            </p>
+            <br>
+            <br>
+            <!-- Atribute box-->
+            <div class="AtributePropertyContainer">
+
+                <div class="AtributeBoxheader">
+
+                    <span class="PropertyBoxText Alittletotheright">Nivel:</span>
+
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn" id="LevelDisplayAT">1</button>
+                        <div id="myDropdown" class="dropdown-content">
+
+                            <a aria-readonly="true" onclick="CalculationDisplayer(1)">1</a>
+                            <a onclick="CalculationDisplayer(2)">2</a>
+                            <a onclick="CalculationDisplayer(3)">3</a>
+                            <a onclick="CalculationDisplayer(4)">4</a>
+                            <a onclick="CalculationDisplayer(5)">5</a>
+                            <a onclick="CalculationDisplayer(6)">6</a>
+                            <a onclick="CalculationDisplayer(7)">7</a>
+                            <a onclick="CalculationDisplayer(8)">8</a>
+                            <a onclick="CalculationDisplayer(9)">9</a>
+                            <a onclick="CalculationDisplayer(10)">10</a>
+                            <a onclick="CalculationDisplayer(11)">11</a>
+                            <a onclick="CalculationDisplayer(12)">12</a>
+                            <a onclick="CalculationDisplayer(13)">13</a>
+                            <a onclick="CalculationDisplayer(14)">14</a>
+                            <a onclick="CalculationDisplayer(15)">15</a>
+                            <a onclick="CalculationDisplayer(16)">16</a>
+                            <a onclick="CalculationDisplayer(17)">17</a>
+                            <a onclick="CalculationDisplayer(18)">18</a>
+                            <a onclick="CalculationDisplayer(19)">19</a>
+                            <a onclick="CalculationDisplayer(20)">20</a>
+
+                        </div>
+                    </div>
+
+                    <hr width="320em">
+
+                </div>
+
+                <div>
+                    <span class="PropertyBoxText Alittletotheright">Vigor</span>
+                    <input type="text" id="AtletaAtributoVig" class="PropertyBox PropertyBoxText" oninput="CalculationDisplayer(100)" maxlength="1">
+                    <hr width="130em">
+                </div>
+
+                <div>
+                    <span class="PropertyBoxText Alittletotheright">Prescença</span>
+                    <input type="text" id="AtletaAtributoPre" class="PropertyBox PropertyBoxText" oninput="CalculationDisplayer(100)" maxlength="1">
+                    <hr width="130em">
+
+                </div>
+                <div style="grid-area:AttributeDisplayer;" class="PVANDPDCONTAINER">
+                    <span id="DisplayAtPV" class="PropertyBoxText PropertyBoxTextPV">PV:6</span>
+                    <span id="DisplayAtPD" class="PropertyBoxText PropertyBoxTextPD">PD:1</span>
+                </div>
+
+            </div>
+
+            <br>
+            <br>
+
+            <!--Tabela de habilidades-->
+            <table class="TableCell">
+                <!-- Table Title-->
+                <tr>
+                    <td class="InlineTextedit EnlargeText"> Niveis </td>
+                    <td class="InlineTextedit EnlargeText"> habilidades </td>
+                </tr>
+                <!-- level Cell -->
+                <tr>
+                    <td> Nivel 1</td>
+                    <td>
+                        <abbr title="Quando atacas um inimigo gasta 1 PD por cada categoria acima de grande ganha +1 de dano">limpar</abbr>
+                        <abbr title="gasta 1 PD e ganha mais +1 atributo em qualquer atributo fisico ">,Surto de força</abbr>
+                    </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 2 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 3 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 4 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 5 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 6 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 7 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 8 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 9 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 10 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 11 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 12 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 13 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 14 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 15 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 16 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 17 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 18 </td>
+                    <td>Estagio de Trilha </td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 19 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+
+                <!-- level Cell -->
+                <tr>
+                    <td>Nivel 20 </td>
+                    <td> Poder de gifter</td>
+                </tr>
+            </table>
+
+
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <br>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+    body {
+        margin: 0;
+    }
+    
+    .Texture {
+        opacity: 100%;
+        overflow: hidden;
+        background-image: url(Assets/Texture.png);
+    }
+    
+    .page {
+        background-color: rgb(0, 0, 0);
+        width: 55em;
+        height: 70em;
+        display: flex;
+        margin: auto;
+        overflow: auto;
+        padding: 1em;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+    }
+    
+    .page p {
+        font-size: 1.5em;
+        text-align: left;
+        padding: 1em;
+        max-width: 55%;
+        color: rgb(45, 41, 58);
+        text-shadow: 0px 0px 1px #000000
+    }
+    
+    .BlackBlock {
+        float: right;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: -1em;
+        margin-bottom: -1em;
+        padding: 1em;
+        width: 24em;
+        max-width: 50%;
+        background-color: rgba(0, 0, 0, 0.832);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .BlackBlock p {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 100%;
+        font-size: 1.3em;
+        text-align: justify;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 1px #ffffff;
+    }
+    
+    .BlackBlock table {
+        padding: 0;
+        width: 100%;
+        font-size: 1em;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 1px #ffffff;
+        border-spacing: 0px;
+    }
+    
+    .TableCell tr:nth-child(odd) {
+        background-color: #d6eeee26;
+    }
+    
+    .TableCell tr:nth-child(even) {
+        background-color: transparent;
+    }
+    
+    .TableCell td:nth-child(odd) {
+        text-align: center;
+        padding: 0.2em;
+    }
+    
+    .TableCell td:nth-child(even) {
+        text-align: left;
+        padding: 0.2em;
+    }
+    
+    .TableCell td:nth-child(even):hover {
+        text-align: left;
+        padding: 0.2em;
+        color: rgb(197, 188, 112);
+    }
+    
+    .HeaderArch {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        text-align: center;
+        text-shadow: 0px 0px 1px #ffffff;
+    }
+    
+    .InlineTextedit {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 100%;
+        font-size: 1em;
+        text-align: justify;
+        color: rgb(197, 188, 112);
+        text-shadow: 0px 0px 1px rgb(205, 198, 140);
+    }
+    
+    .SmallText {
+        font-size: 0.7em;
+        color: rgb(132, 132, 132);
+        text-shadow: 0px 0px 1px rgb(132, 132, 132);
+    }
+    
+    .EnlargeText {
+        font-size: 1.5em;
+    }
+    
+    .AtributePropertyContainer {
+        width: 100%;
+        height: 15em;
+        background-color: rgba(112, 112, 112, 0.10);
+        display: grid;
+        grid-template-areas: "header header" "menu content" "AttributeDisplayer AttributeDisplayer";
+        border-radius: 10px;
+        border: 3px inset rgba(255, 255, 255, 0.1);
+    }
+    
+    .AtributeBoxheader {
+        grid-area: header;
+        margin: auto;
+    }
+    
+    .PropertyBoxText {
+        font-size: 2em;
+        color: #c4c4c4;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    .PropertyBoxTextPV {
+        color: rgb(183, 76, 76);
+        text-shadow: 0px 0px 1px rgb(255, 0, 0);
+        ;
+    }
+    
+    .PropertyBoxTextPD {
+        color: rgb(76, 181, 183);
+        text-shadow: 0px 0px 1px rgb(0, 255, 247);
+        ;
+    }
+    
+    .PropertyBox {
+        height: 1em;
+        width: 1em;
+        background: transparent;
+        text-align: center;
+    }
+    
+    .Alittletotheright {
+        padding-left: 0.4em;
+    }
+    
+    .PVANDPDCONTAINER {
+        background-color: rgba(43, 43, 43, 0.4);
+        border: inset 3px rgba(255, 255, 255, 0.2);
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 18em;
+        height: 4em;
+        margin-inline: auto;
+    }
