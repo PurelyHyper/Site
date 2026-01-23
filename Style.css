@@ -9,11 +9,12 @@
     }
     
     .page {
+        margin-top: 2em;
         background-color: rgb(0, 0, 0);
         width: 55em;
         height: 70em;
         display: flex;
-        margin: auto;
+        margin-inline: auto;
         overflow: auto;
         padding: 1em;
         box-sizing: border-box;
@@ -22,7 +23,6 @@
     
     .page p {
         font-size: 1.5em;
-        text-align: left;
         padding: 1em;
         max-width: 55%;
         color: rgb(45, 41, 58);
@@ -30,9 +30,7 @@
     }
     
     .BlackBlock {
-        float: right;
         margin-left: auto;
-        margin-right: 0;
         margin-top: -1em;
         margin-bottom: -1em;
         padding: 1em;
@@ -49,8 +47,7 @@
         margin-top: 0;
         margin-bottom: 0;
         max-width: 100%;
-        font-size: 1.3em;
-        text-align: justify;
+        font-size: 1.7em;
         color: rgb(255, 255, 255);
         text-shadow: 0px 0px 1px #ffffff;
     }
@@ -101,20 +98,15 @@
         margin-top: 0;
         margin-bottom: 0;
         max-width: 100%;
-        font-size: 1em;
-        text-align: justify;
+        text-align: right;
         color: rgb(197, 188, 112);
         text-shadow: 0px 0px 1px rgb(205, 198, 140);
     }
     
     .SmallText {
-        font-size: 0.7em;
+        font-size: 1em;
         color: rgb(132, 132, 132);
         text-shadow: 0px 0px 1px rgb(132, 132, 132);
-    }
-    
-    .EnlargeText {
-        font-size: 1.5em;
     }
     
     .AtributePropertyContainer {

@@ -21,3 +21,11 @@ Presteza atletica
 
  Surto de força
  - Uma vez por rodada vai plus ultra, e por 1 PD ganha 1 ponto de atributo entre (AGL, FOR, VIG) ate o fim da rodada (Se ganhar vida extra pelo o vigor e quando esse vigor sair a sua vida serar voce morre)
+
+   <p>
+                Pontos de Vida inicias:
+                <span align="right" class="InlineTextedit EnlargeText">6</span>
+                <span align="" class="InlineTextedit" style="text-align: right;">+Vigor</span>
+
+                <br> <span class="SmallText"> A cada novo nível 2 PV (+Vig)</span>
+            </p>
