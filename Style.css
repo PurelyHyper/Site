@@ -125,7 +125,7 @@
     }
     
     .PropertyBoxText {
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #c4c4c4;
         overflow: hidden;
         margin: auto;
@@ -144,8 +144,8 @@
     }
     
     .PropertyBox {
-        height: 1rem;
-        width: 1rem;
+        height: 2rem;
+        width: 2rem;
         background: transparent;
         text-align: center;
     }
