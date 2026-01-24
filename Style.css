@@ -9,21 +9,21 @@
     }
     
     .page {
-        margin-top: 2em;
+        margin-top: 2rem;
         background-color: rgb(0, 0, 0);
-        width: 55em;
-        height: 70em;
+        width: 55rem;
+        height: 70rem;
         display: flex;
         margin-inline: auto;
         overflow: auto;
-        padding: 1em;
+        padding: 1rem;
         box-sizing: border-box;
         box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
     }
     
     .page p {
-        font-size: 1.5em;
-        padding: 1em;
+        font-size: 1.5rem;
+        padding: 1rem;
         max-width: 55%;
         color: rgb(45, 41, 58);
         text-shadow: 0px 0px 1px #000000
@@ -31,10 +31,10 @@
     
     .BlackBlock {
         margin-left: auto;
-        margin-top: -1em;
-        margin-bottom: -1em;
-        padding: 1em;
-        width: 24em;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+        padding: 1rem;
+        width: 24rem;
         max-width: 50%;
         background-color: rgba(0, 0, 0, 0.832);
         box-sizing: border-box;
@@ -47,7 +47,7 @@
         margin-top: 0;
         margin-bottom: 0;
         max-width: 100%;
-        font-size: 1.5em;
+        font-size: 1.5rem;
         color: rgb(255, 255, 255);
         text-shadow: 0px 0px 1px #ffffff;
     }
@@ -55,7 +55,7 @@
     .BlackBlock table {
         padding: 0;
         width: 100%;
-        font-size: 1em;
+        font-size: 1rem;
         text-align: center;
         color: rgb(255, 255, 255);
         text-shadow: 0px 0px 1px #ffffff;
@@ -72,12 +72,12 @@
     
     .TableCell td:nth-child(odd) {
         text-align: center;
-        padding: 0.2em;
+        padding: 0.2rem;
     }
     
     .TableCell td:nth-child(even) {
         text-align: left;
-        padding: 0.2em;
+        padding: 0.2rem;
     }
     
     .TableCell td:nth-child(even):hover {
@@ -104,14 +104,14 @@
     }
     
     .SmallText {
-        font-size: 1em;
+        font-size: 1rem;
         color: rgb(132, 132, 132);
         text-shadow: 0px 0px 1px rgb(132, 132, 132);
     }
     
     .AtributePropertyContainer {
         width: 100%;
-        height: 15em;
+        height: 15rem;
         background-color: rgba(112, 112, 112, 0.10);
         display: grid;
         grid-template-areas: "header header" "menu content" "AttributeDisplayer AttributeDisplayer";
@@ -125,7 +125,7 @@
     }
     
     .PropertyBoxText {
-        font-size: 2em;
+        font-size: 1.8rem;
         color: #c4c4c4;
         overflow: hidden;
         margin: auto;
@@ -144,14 +144,14 @@
     }
     
     .PropertyBox {
-        height: 1em;
-        width: 1em;
+        height: 1rem;
+        width: 1rem;
         background: transparent;
         text-align: center;
     }
     
     .Alittletotheright {
-        padding-left: 0.4em;
+        padding-left: 0.4rem;
     }
     
     .PVANDPDCONTAINER {
@@ -160,8 +160,8 @@
         border-radius: 3px;
         display: flex;
         justify-content: space-evenly;
-        width: 18em;
-        height: 4em;
+        width: 18rem;
+        height: 4rem;
         margin-inline: auto;
     }
 
@@ -173,12 +173,12 @@
 
     .CommunHR{
         margin: 0;
-         margin-top: -0.30em;
+         margin-top: -0.30rem;
          box-shadow: 0px 0px 2px 0px rgb(255, 255, 255);
     }
 
     .TitleHR{
 
-         margin-top: -1.9em;
-         border-radius: 1em;
+         margin-top: -1.9rem;
+         border-radius: 1rem;
     }
