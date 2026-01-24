@@ -22,10 +22,17 @@ Presteza atletica
  Surto de força
  - Uma vez por rodada vai plus ultra, e por 1 PD ganha 1 ponto de atributo entre (AGL, FOR, VIG) ate o fim da rodada (Se ganhar vida extra pelo o vigor e quando esse vigor sair a sua vida serar voce morre)
 
-   <p>
-                Pontos de Vida inicias:
-                <span align="right" class="InlineTextedit EnlargeText">6</span>
-                <span align="" class="InlineTextedit" style="text-align: right;">+Vigor</span>
+Forte e feio
 
-                <br> <span class="SmallText"> A cada novo nível 2 PV (+Vig)</span>
-            </p>
+
+Pensar fora da caixa
+ - Uma vez por cena de investigação se o teu item de cleaner for de tipo supporte, podes utilizar o atributo chave dele na investigação
+
+Combate defensivo
+ - Quando fores atacar corpo a corpo, utiliza o teu item de gifter de forma defensiva +5 em defesa, mais se fores atacado, gira um 1d4, se tirar 1 o dano que recebeste vai para o teu item, se fores atingido, e calhar divide entre o usuario e o item.
+
+ items de gifters
+ tipagem
+ - ataque
+ - supporte
+ - defesa 

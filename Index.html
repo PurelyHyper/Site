@@ -4,6 +4,7 @@
     <title>2 Pages for classes</title>
     <link href="Style.css" rel="stylesheet" />
     <link href="Assets/Fontshare/FontshareKit-2601002453/Paquito/Fonts/WEB/css/paquito.css" rel="stylesheet">
+    <link href="Assets/Fonts/WEB/css/comico.css" rel="stylesheet">
     <link href="Assets/css/W3eCss.css" rel="stylesheet">
 </head>
 
@@ -14,41 +15,55 @@
     <div class="page Texture" onloadstart="CalculationDisplayer(100)">
 
         <!-- And this is mister texty textful-->
+         <div style="width: 100%;">
+         <div style="margin-inline: auto; width:60%">
+         <h1 class="ImportantTitle" style="margin-bottom: -16px; color: #002A31;">Nova Classe</h1> 
+         <h1 class="ImportantTitle" style="margin-top: auto; color:rgb(144, 23, 47)">&nbsp Gifter Atleta</h1>
+         </div>
+         <hr class="TitleHR" size="6" width="80%" color="#002A31">
+         </div>
         <p>
-
+            
         </p>
 
         <!-- And this is the black diva!!!!-->
         <div class="BlackBlock">
-            <h1 class="HeaderArch">Classe Gifter Atleta</h1>
+            <h1 class="HeaderArch">CARACTERÍSTICAS</h1>
 
             <!-- Vigor Attribute blackbox-->
             <p style="display: flex; justify-content: space-between;">
                 <span style="justify-self: flex-start; margin-top: auto;">Pontos de PV inicias</span>
-                <span class="InlineTextedit" style="justify-self: flex-end;">6 <span style="font-size: 0.7em;">+Vigor</span></span>
+                <span class="InlineTextedit" style="justify-self: flex-end;">6<span style="font-size: 0.7em;"> +Vigor</span></span>
             </p>
-            <hr width="100%" size="3" color="white" style="margin: 0; margin-top: -0.30em;box-shadow: 0px 0px 2px 0px rgb(255, 255, 255);">
+            <hr width="100%" size="3" color="white" class="CommunHR">
             <span class="SmallText"> A cada novo nível 2 PV (+Vig)</span>
             <br>
             <!-- End of said attribute black box text-->
 
+
+
+            
             <!-- Prescença Attribute blackbox-->
             <p style="display: flex; justify-content: space-between;">
                 <span style="justify-self: flex-start; margin-top: auto;">Pontos de PD inicias</span>
-                <span class="InlineTextedit" style="justify-self: flex-end;">2 <span style="font-size: 0.7em;">+Prescença</span></span>
+                <span class="InlineTextedit" style="justify-self: flex-end;">2<span style="font-size: 0.7em;"> +Prescença</span></span>
             </p>
-            <hr width="100%" size="3" color="white" style="margin: 0; margin-top: -0.30em;box-shadow: 0px 0px 2px 0px rgb(255, 255, 255);">
-            <span class="SmallText">A cada novo nível 1 PV (+Pre)</span>
+            <hr width="100%" size="3" color="white" class="CommunHR">
+            <span class="SmallText">A cada novo nível 1 PD (+Pre)</span>
             <br>
             <!-- End of said attribute black box text-->
+
+
 
             <!-- Prescença Attribute blackbox-->
             <p style="display: flex; justify-content: space-between;">
                 <span style="justify-self: flex-start; margin-top: auto;">Perícias Treinadas</span>
             </p>
-            <hr width="100%" size="3" color="white" style="margin: 0; margin-top: -0.30em;box-shadow: 0px 0px 2px 0px rgb(255, 255, 255);">
-            <span class="SmallText" align="justify">Luta ou pontaria e reflexo ou fortitude mais uma quantitade de pericias a sua escolha igual a 3 Perícias + Int</span>
-            <br><br>
+            <hr width="100%" size="3" color="white" class="CommunHR">
+            <span class="SmallText" align="justify">
+                Luta ou pontaria e reflexo ou fortitude mais uma quantitade de pericias a sua escolha igual a 3 Perícias + Int
+            </span>
+            <br>
             <!-- End of said attribute black box text-->
 
 
@@ -65,7 +80,7 @@
                         <button onclick="myFunction()" class="dropbtn" id="LevelDisplayAT">1</button>
                         <div id="myDropdown" class="dropdown-content">
 
-                            <a aria-readonly="true" onclick="CalculationDisplayer(1)">1</a>
+                            <a onclick="CalculationDisplayer(1)">1</a>
                             <a onclick="CalculationDisplayer(2)">2</a>
                             <a onclick="CalculationDisplayer(3)">3</a>
                             <a onclick="CalculationDisplayer(4)">4</a>
@@ -112,7 +127,6 @@
 
             </div>
 
-            <br>
             <br>
 
             <!--Tabela de habilidades-->

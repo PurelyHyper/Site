@@ -47,7 +47,7 @@
         margin-top: 0;
         margin-bottom: 0;
         max-width: 100%;
-        font-size: 1.7em;
+        font-size: 1.5em;
         color: rgb(255, 255, 255);
         text-shadow: 0px 0px 1px #ffffff;
     }
@@ -163,4 +163,22 @@
         width: 18em;
         height: 4em;
         margin-inline: auto;
+    }
+
+    .ImportantTitle{
+        text-shadow: 3px 3px 2px #000000;
+        font-family: Comico-Regular, sans-serif;
+        margin-inline: auto;
+    }
+
+    .CommunHR{
+        margin: 0;
+         margin-top: -0.30em;
+         box-shadow: 0px 0px 2px 0px rgb(255, 255, 255);
+    }
+
+    .TitleHR{
+
+         margin-top: -1.9em;
+         border-radius: 1em;
     }
